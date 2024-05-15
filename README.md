@@ -6,7 +6,7 @@ _Note: I will be updating this plugin in the near future to better match the API
 ## Installation
 ##### 1.) Install via composer
 ```bash
-composer require cklmercer/laravel-model-settings
+composer require IngressIT/laravel-model-settings
 ```
 
 ##### 2.) Add a JSON settings field to your model's migration.
@@ -26,7 +26,7 @@ Schema::create('users', function (Blueprint $table) {
 ##### 3.) Use the trait `Cklmercer\ModelSettings\HasSettings` within your model.
 _User.php_
 ```php
-use Cklmercer\ModelSettings\HasSettings;
+use IngressIT\ModelSettings\HasSettings;
 use Illuminate\Foundation\Auth\User as Authenticatable;
 
 class User extends Authenticatable 
@@ -85,7 +85,7 @@ any new models that are created *without* settings.
 
 _User.php_
 ```php
-use Cklmercer\ModelSettings\HasSettings;
+use IngressIT\ModelSettings\HasSettings;
 use Illuminate\Foundation\Auth\User as Authenticatable;
 
 class User extends Authenticatable 
@@ -112,7 +112,7 @@ the `$allowedSettings` array will be saved on the model.
 
 _User.php_
 ```php
-use Cklmercer\ModelSettings\HasSettings;
+use IngressIT\ModelSettings\HasSettings;
 use Illuminate\Foundation\Auth\User as Authenticatable;
 
 class User extends Authenticatable 
@@ -136,7 +136,7 @@ If you prefer to use another name other than `settings` , you can do so by defin
 
 _User.php_
 ```php
-use Cklmercer\ModelSettings\HasSettings;
+use IngressIT\ModelSettings\HasSettings;
 use Illuminate\Foundation\Auth\User as Authenticatable;
 
 class User extends Authenticatable 
