@@ -1,16 +1,16 @@
 {
-    "name": "cklmercer/laravel-model-settings",
+    "name": "ingress-it-solutions/laravel-model-settings",
     "description": "Add simple yet flexible settings to your Laravel models.",
     "keywords": ["laravel", "settings", "models"],
     "license": "MIT",
     "support": {
-        "issues": "https://github.com/cklmercer/laravel-model-settings/issues",
-        "source": "https://github.com/cklmercer/laravel-model-settings"
+        "issues": "https://github.com/ingress-it-solutions/laravel-model-settings/issues",
+        "source": "https://github.com/ingress-it-solutions/laravel-model-settings"
     },
     "authors": [
         {
-            "name": "Cody Mercer",
-            "email": "me@codymercer.com"
+            "name": "Ingress",
+            "email": "hello@ingressit.com"
         }
     ],
     "require": {
@@ -20,7 +20,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Cklmercer\\ModelSettings\\": "src/"
+            "IngressIT\\ModelSettings\\": "src/"
         }
 	},
     
