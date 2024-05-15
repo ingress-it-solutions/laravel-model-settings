@@ -1,6 +1,6 @@
 <?php
 
-namespace Cklmercer\ModelSettings;
+namespace IngressIT\ModelSettings;
 
 use Illuminate\Support\Arr;
 
